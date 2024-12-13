@@ -1,21 +1,32 @@
 {
 
     "name": "simple-calculator",
-  
+
     "version": "1.0.0",
-  
+
     "main": "calculator.js",
-  
+
     "scripts": {
-  
-      "test": "jest --coverage"
-  
+
+        "test": "jest --coverage",
+
+        "lint": "eslint"
+
     },
-  
+
     "devDependencies": {
-  
-      "jest": "^27.0.0"
-  
+
+        "@eslint/js": "^9.16.0",
+
+        "eslint": "^8.57.1",
+
+        "eslint-plugin-react": "^7.37.2",
+
+        "globals": "^15.13.0",
+
+        "jest": "^27.0.0"
+
     }
-  
-  }
+
+}
+
