@@ -32,3 +32,6 @@ jobs:
         with:
           name: build-output
           path: dist/
+
+      - name: Run CodeQL Analysis
+        uses: github/codeql-action/init@v2
